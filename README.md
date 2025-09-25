@@ -15,3 +15,5 @@ Textual analyses of U.S. political discourse using NLP, LLM-assisted workflows, 
 - Keyword trend analysis over time
 - Network visualization of term co-occurrence  
 - NLP & LLM-assisted theme discovery
+
+***
