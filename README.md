@@ -5,7 +5,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 
 **[POTUS Presidential Actions](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing)**
 - A representative sample of ‘Presidential Actions’ lifted from [whitehouse.gov](https://www.whitehouse.gov/)
-- 176 (and counting) proclamations, executive orders, & memoranda (ranging from February 2025 - Ongoing)
+- Sample size **n=176**, (46% of total corpus) was selected to balance analytical depth with processing constraints. Contains "proclamations", "executive orders", & "memoranda" (timeframe ranges from February 2025 - September 2025)
 - Web-scraped text of each ‘Presidential Action’
 - Some metadata
 > **Constraints & limitations** are addressed in more detail within the *Spreadsheet README page*.
@@ -42,7 +42,7 @@ I assembled these data to test various hypotheses and assumptions I had about US
 > 3. **Networked Keyword Relationships:** I expect to see a strong co-occurrence network between **judicial keywords** and keywords related to **reproductive rights, gender identity, and immigration.** This would visually illustrate the hypothesized strategic link between the judiciary and these policy areas.
 
 Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but my first steps were to
-1. [Count](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?gid=95626583#gid=95626583&range=B1) words
+1. [Count](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?gid=95626583#gid=95626583&range=A1) words
 2. [graph](https://lookerstudio.google.com/s/ngv-FD0AbXM) words
 3. select keywords & themes I believed to be significant
 
@@ -129,5 +129,31 @@ I am still learning to use and understand Gephi and graph visualizations, but I 
 - Line thickness denotes frequency that connected words appear together
 
   ![screenshot of 'potus_keywords_network.gexf'](images/potus_keywords_network_gexf.png)
-  > My first visualization gives me hope that my methodology is plausibly capturing encoded meaning. It shows patterns I expected to see
+  > My first visualization gives me hope that my methodology is plausibly capturing encoded meaning. It appears to show patterns predicted in the hypothesis
   > - 
+
+***
+# CLIFFHANGER: An Unexpected Finding?
+
+During network analysis, one visualization revealed 2 curious patterns I did not anticipate:
+
+> ## POTUS's rhetoric implies LGBTQ keyword clusters have some unsavoury neighbours
+> [![POTUS walks like a duck, and talks like a duck. The pattern displays characteristics consistent with ducks, but requires further validation to rule out methodological artifacts or coincidence.](images/LGBTQ_unsavory_neighbours.png)](https://youtu.be/JJyQC4RQgHI)
+
+
+## **Artificial Intelligence** keyword clusters appear to show high centrality
+- The strength of these connections is visually prominent despite not being part of my original hypotheses
+
+
+
+## **Open Questions:**
+- Are these patterns statistically significant, or an artifact of my methodology?
+- Does it represent a meaningful relationship in the data, or random clustering?
+- If valid, what might this reveal about unexamined aspects of political discourse?
+
+**Why I'm Not Investigating Yet:**
+- This exploration remains focused on testing my initial hypotheses, and refining my workflows & toolkits.
+- Proper investigation would require new methodological approaches - which I am still refining
+- I want to avoid premature interpretation without rigorous validation
+- POTUS walks like a duck, and talks like a duck. The pattern displays characteristics consistent with ducks, but requires further validation to rule out methodological artifacts or coincidence.
+
