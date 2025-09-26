@@ -8,6 +8,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 - 176 (and counting) proclamations, executive orders, & memoranda (ranging from February 2025 - September 2025)
 - Web-scraped text of each ‘Presidential Action’
 - Some metadata
+> **Constraints & limitations** are addressed in more detail within the *Spreadsheet README page*.
 
 ## About
 - Ongoing textual analysis of U.S. political discourse using NLP, LLM-assisted workflows, and graph visualization techniques.
@@ -24,13 +25,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 
 ***
 # Exploratory analyses of POTUS Presidential Actions
-
-<a href="https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing" target="_blank" title="Click to explore POTUS Presidential Actions">
-<img src="images/exploratory_keywords.png" alt="POTUS Presidential Actions Dataset" />
-</a>
-
 I assembled these data to test various hypotheses and assumptions I had about US politics. My intentions are to use **textual analyses, NLP, LLMs and data visualization techniques** to 
-
 1. interrogate the validity of my hypotheses and assumptions
 2. discover trends or relationships I did not anticipate
 
@@ -46,6 +41,10 @@ Over several months, I extracted and categorized ‘Presidential Actions’ from
 - Automatically extracted full website text with a Google Apps Script web scraping script.
 
  ## Initial exploration
+ <a href="https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing" target="_blank" title="Click to explore POTUS Presidential Actions">
+<img src="images/exploratory_keywords.png" alt="POTUS Presidential Actions Dataset" />
+</a>
+
 I used fragile, shameful, and forbidden techniques to quickly search each article for keywords, and output Boolean TRUE/FALSE values
 ```
 =ARRAYFORMULA(IF(AF2:AF<>"", IF(REGEXMATCH(AF2:AF, G1), TRUE, FALSE), ""))
@@ -74,6 +73,13 @@ This spreadsheet is a database of articles.
 
 ***
 # Incorporating Gephi
+Happy that GPT-5 could structure CSV files as graph data, I asked it to export the data as a **.GEXF** file.
+
+> ## Key Data Components
+> A GEXF file primarily stores the components of a graph or network:
+> - **Nodes (Vertices):** The individual entities within the network (e.g., people, websites, genes).
+> - **Edges (Links):** The connections between the nodes, representing relationships (e.g., friendships, hyperlinks, interactions). Edges can be **directed** (A links to B) or **undirected** (A and B are related).
+
 I am still learning to use and understand Gephi and graph visualizations, but I am already asking unanticipated questions based on stories that emerge from the data. 
 - Keyword size denotes frequency within dataset
 - Green lines connect words that are found in the same ‘Presidential Action’
