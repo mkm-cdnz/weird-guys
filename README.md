@@ -52,10 +52,16 @@ Techniclly, data was visualised - but no story; a bird's nest full of weird conf
 ## Prompt given to GPT-5:
 '''
 I want to visualize the data in "POTUS Presidential Actions" from the attached Google Sheets document. 
-This spreadsheet is a database of articles. 
+This spreadsheet is a database of articles.
 
 - Columns G:AE tracks keywords, with Boolean values ["TRUE", "FALSE"] denoting if a given row mentions a given keyword. 
 - I want an interactive force-directed network graph to visualize the relationship various keywords have.
-
+'''
 ![potus_keywords_network](images/oneshot_potus_keywords_network.png "potus_keywords_network.png")
-  
+
+***
+# Incorporating Gephi
+I am still learning to use and understand Gephi and graph visualizations, but I am already asking unanticipated questions based on stories that emerge from the data. 
+- Keyword size denotes frequency within dataset
+- Green lines connect words that are found in the same ‘Presidential Action’
+- Line thickness denotes frequency that connected words appear together
