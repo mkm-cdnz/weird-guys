@@ -38,7 +38,36 @@ Over time, my methods and visualizations are subject to change, and the dataset 
 ## Data Ingestion Process
 Over several months, I extracted and categorized ‘Presidential Actions’ from the official Whitehouse website
 - Manually selected samples
-- Automatically extracted full website text with a Google Apps Script web scraping script.
+- Automatically extracted full website text with a [Google Apps Script (GAS) web scraping script](apps-script/full_text.js).
+
+<details>
+  <summary>Click for summary of the Apps Script functions...</summary>
+  <p><b> GAS web scraping functions:</b></p>
+<ul>
+  <li>Get the active spreadsheet’s <em>active sheet</em> for data and the <em>logs</em> sheet for logging.</li>
+  <li>Read the header row (row 1) to find the column indexes for <code>url</code>, <code>full_text</code>, and <code>char_count</code>.</li>
+  <li>If any of those headers are missing, create them in row 1 (so each column exists).</li>
+  <li>Determine the last data row, then read all URLs (from the <code>url</code> column) and any existing text (from the <code>full_text</code> column) starting at row 2.</li>
+  <li>For each row:
+    <ul>
+      <li>If the URL cell is empty, skip the row.</li>
+      <li>If <code>full_text</code> already has content, skip and add a “Skipped (Already processed)” log entry.</li>
+      <li>Otherwise:
+        <ul>
+          <li>Fetch the page HTML at the URL (HTTP errors won’t throw due to <code>muteHttpExceptions: true</code>).</li>
+          <li>Clean the HTML by removing <code>&lt;script&gt;</code> and <code>&lt;style&gt;</code> blocks, stripping all tags, and collapsing whitespace.</li>
+          <li>Truncate the cleaned text to 50,000 characters and compute its length.</li>
+          <li>Write the truncated text to the row’s <code>full_text</code> cell and the length to <code>char_count</code>.</li>
+          <li>Queue a log entry noting the row number and character count.</li>
+        </ul>
+      </li>
+      <li>If any error occurs during fetch/processing, queue a log entry with the error message and row number.</li>
+    </ul>
+  </li>
+  <li>After processing all rows, append all queued log entries (timestamp + message) to the <em>logs</em> sheet.</li>
+</ul>
+
+</details>
 
  ## Initial exploration
  <a href="https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing" target="_blank" title="Click to explore POTUS Presidential Actions">
