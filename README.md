@@ -25,15 +25,28 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 
 ***
 # Exploratory analyses of POTUS Presidential Actions
-I assembled these data to test various hypotheses and assumptions I had about US politics. My intentions are to use **textual analyses, NLP, LLMs and data visualization techniques** to 
+I assembled these data to test various hypotheses and assumptions I had about US politics. My intentions are to use **quantitative textual analyses, NLP, LLMs & data visualization techniques** to 
 1. interrogate the validity of my hypotheses and assumptions
 2. discover trends or relationships I did not anticipate
 
-Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but my first steps were to
+> # Hypotheses
+> > **While I begin with these specific hypotheses, the *Weird Guys Project* remains fundamentally exploratory. I am interested in discovering unexpected patterns and relationships that challenge my initial assumptions.**
+> > - The keywords analyzed in this initial exploration were manually selected based on my my domain knowledge and research hypotheses. *This approach risks confirmation bias and may miss significant themes* outside my predetermined focus.
+> > - To reduce selection bias and draw stronger conclusions, future iterations should utilize automated NLP techniques, topic modeling, or clustering algorithms to identify statistically significant keyword patterns without prior assumptions.
+> > - Dataset only includes a sample of the **DJT's second term as POTUS, 2025**. It may be have been useful to compare with (a) their previous term, and (b) other Presidents.
+>
+> 
+> ## My hypotheses:
+> 1. **Linguistic Framing of Social Groups:** The language used in Presidential Actions will show distinct, measurable patterns when discussing topics related to **reproductive rights, gender-nonconforming individuals**, and **immigration**. I hypothesize this language may align with frameworks of restriction or opposition more frequently than with frameworks of support or inclusion.
+> 2. **Strategic Focus on the Judiciary:** There will be a significant emphasis on the **judicial branch** (e.g., frequent mentions of judges, courts, rulings). I hypothesize that this is a strategic channel through which policy preferences on the issues above are articulated or anticipated.
+> 3. **Networked Keyword Relationships:** I expect to see a strong co-occurrence network between **judicial keywords** and keywords related to **reproductive rights, gender identity, and immigration.** This would visually illustrate the hypothesized strategic link between the judiciary and these policy areas.
 
-*select keywords & themes I believed to be significant*
-- Count them
-- graph them
+Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but my first steps were to
+- Count words
+- graph words
+- select keywords & themes I believed to be significant
+
+
 
 ## Data Ingestion Process
 Over several months, I extracted and categorized ‘Presidential Actions’ from the official Whitehouse website
@@ -113,3 +126,7 @@ I am still learning to use and understand Gephi and graph visualizations, but I 
 - Keyword size denotes frequency within dataset
 - Green lines connect words that are found in the same ‘Presidential Action’
 - Line thickness denotes frequency that connected words appear together
+
+  ![screenshot of 'potus_keywords_network.gexf'](images/potus_keywords_network_gexf.png)
+  > My first visualization gives me hope that my methodology is plausibly capturing encoded meaning. It shows patterns I expected to see
+  > - 
