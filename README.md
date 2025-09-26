@@ -5,7 +5,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 
 **[POTUS Presidential Actions](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing)**
 - A representative sample of ‘Presidential Actions’ lifted from [whitehouse.gov](https://www.whitehouse.gov/)
-- 176 (and counting) proclamations, executive orders, & memoranda (ranging from February 2025 - September 2025)
+- 176 (and counting) proclamations, executive orders, & memoranda (ranging from February 2025 - Ongoing)
 - Web-scraped text of each ‘Presidential Action’
 - Some metadata
 > **Constraints & limitations** are addressed in more detail within the *Spreadsheet README page*.
