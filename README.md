@@ -8,7 +8,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 - Sample size **n=176**, (46% of total corpus) was selected to balance analytical depth with processing constraints. Contains "proclamations", "executive orders", & "memoranda" (timeframe ranges from February 2025 - September 2025)
 - Web-scraped text of each ‘Presidential Action’
 - Some metadata
-> **Constraints & limitations** are addressed in more detail within the *Spreadsheet README page*.
+> **Constraints & limitations** are addressed in more detail within the *Spreadsheet [README](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?gid=1190618694#gid=1190618694&range=A1) *.
 
 ## About
 - Ongoing textual analysis of U.S. political discourse using NLP, LLM-assisted workflows, and graph visualization techniques.
