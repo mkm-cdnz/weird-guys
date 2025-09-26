@@ -17,3 +17,45 @@ Textual analyses of U.S. political discourse using NLP, LLM-assisted workflows, 
 - NLP & LLM-assisted theme discovery
 
 ***
+# Exploratory analyses of POTUS Presidential Actions
+I assembled these data to test various hypotheses and assumptions I had about US politics. My intentions are to use **textual analyses, NLP, LLMs and data visualization techniques** to 
+
+1. interrogate the validity of my hypotheses and assumptions
+2. discover trends or relationships I did not anticipate
+
+Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but my first steps were to
+
+*select keywords & themes I believed to be significant*
+- Count them
+- graph them
+
+## Data Ingestion Process
+Over several months, I extracted and categorized ‘Presidential Actions’ from the official Whitehouse website
+- Manually selected samples
+- Automatically extracted full website text with a Google Apps Script web scraping script.
+
+ ## Initial exploration
+I used fragile, shameful, and forbidden techniques to quickly search each article for keywords, and output Boolean TRUE/FALSE values
+'''
+=ARRAYFORMULA(IF(AF2:AF<>"", IF(REGEXMATCH(AF2:AF, G1), TRUE, FALSE), ""))
+'''
+Similar *keywords and synonyms* were included in the Boolean search with pipes, e.g.
+- gay|lesbian|transgender|intersex
+- radical|extremist|extremism
+
+  ***
+
+## Incorporating LLMs
+I used GPT-5 to (1) transform my spreadsheet data into graph data, (2) export these data as a **.GEXF file**. ChatGPT’s first attempt showed promise, but wasn’t particularly noteworthy, useful or legible. 
+Techniclly, data was visualised - but no story; a bird's nest full of weird confusing eggs.
+
+## Prompt given to GPT-5:
+'''
+I want to visualize the data in "POTUS Presidential Actions" from the attached Google Sheets document. 
+This spreadsheet is a database of articles. 
+
+- Columns G:AE tracks keywords, with Boolean values ["TRUE", "FALSE"] denoting if a given row mentions a given keyword. 
+- I want an interactive force-directed network graph to visualize the relationship various keywords have.
+- '''
+[potus_keywords_network.html]: images/oneshot - potus_keywords_network.png "potus_keywords_network.png"
+  
