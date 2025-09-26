@@ -36,9 +36,9 @@ Over several months, I extracted and categorized ‘Presidential Actions’ from
 
  ## Initial exploration
 I used fragile, shameful, and forbidden techniques to quickly search each article for keywords, and output Boolean TRUE/FALSE values
-'''
+```
 =ARRAYFORMULA(IF(AF2:AF<>"", IF(REGEXMATCH(AF2:AF, G1), TRUE, FALSE), ""))
-'''
+```
 Similar *keywords and synonyms* were included in the Boolean search with pipes, e.g.
 - gay|lesbian|transgender|intersex
 - radical|extremist|extremism
