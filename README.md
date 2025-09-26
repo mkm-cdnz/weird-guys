@@ -57,5 +57,5 @@ This spreadsheet is a database of articles.
 - Columns G:AE tracks keywords, with Boolean values ["TRUE", "FALSE"] denoting if a given row mentions a given keyword. 
 - I want an interactive force-directed network graph to visualize the relationship various keywords have.
 
-[potus_keywords_network.html]: images/oneshot_potus_keywords_network.png "potus_keywords_network.png"
+![potus_keywords_network.html]: images/oneshot_potus_keywords_network.png "potus_keywords_network.png"
   
