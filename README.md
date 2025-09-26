@@ -42,10 +42,11 @@ I assembled these data to test various hypotheses and assumptions I had about US
 > 3. **Networked Keyword Relationships:** I expect to see a strong co-occurrence network between **judicial keywords** and keywords related to **reproductive rights, gender identity, and immigration.** This would visually illustrate the hypothesized strategic link between the judiciary and these policy areas.
 
 Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but my first steps were to
-- Count words
-- graph words
-- select keywords & themes I believed to be significant
+1. [Count](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?gid=95626583#gid=95626583&range=B1) words
+2. [graph](https://lookerstudio.google.com/s/ngv-FD0AbXM) words
+3. select keywords & themes I believed to be significant
 
+Nothing particularly interesting...
 
 
 ## Data Ingestion Process
@@ -87,7 +88,7 @@ Over several months, I extracted and categorized ‘Presidential Actions’ from
 <img src="images/exploratory_keywords.png" alt="POTUS Presidential Actions Dataset" />
 </a>
 
-I used fragile, shameful, and forbidden techniques to quickly search each article for keywords, and output Boolean TRUE/FALSE values
+ I used fragile, shameful, and forbidden techniques to quickly search each article for keywords, and output Boolean TRUE/FALSE values. 
 ```
 =ARRAYFORMULA(IF(AF2:AF<>"", IF(REGEXMATCH(AF2:AF, G1), TRUE, FALSE), ""))
 ```
