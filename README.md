@@ -157,3 +157,11 @@ During network analysis, one visualization revealed 2 curious patterns I did not
 - I want to avoid premature interpretation without rigorous validation
 - POTUS walks like a duck, and talks like a duck. The pattern displays characteristics consistent with ducks, but requires further validation to rule out methodological artifacts or coincidence.
 
+<details>
+  <summary>One final note (Click to Expand) 👇</summary>
+
+  - I didn't include every step or code snippet for the ChatGPT-generated. 
+  - That would have been the coding equivalent of watching a cooking show where a guy orders a Pizza on Uber Eats, sends it back 5 times for being wrong, and gets in 3 arguments with the delivery driver who suddenly insists "customers *always* go to the store to make their own pizza.
+  - If that happens on cooking shows, we'd never know, because they too would just leave that ordeal on the cutting room floor and jumpcut straight to the cheese-pull.
+</details>
+
