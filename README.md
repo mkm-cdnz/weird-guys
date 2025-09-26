@@ -50,13 +50,14 @@ I used GPT-5 to (1) transform my spreadsheet data into graph data, (2) export th
 Techniclly, data was visualised - but no story; a bird's nest full of weird confusing eggs.
 
 ## Prompt given to GPT-5:
-'''
+
+"""
 I want to visualize the data in "POTUS Presidential Actions" from the attached Google Sheets document. 
 This spreadsheet is a database of articles.
 
 - Columns G:AE tracks keywords, with Boolean values ["TRUE", "FALSE"] denoting if a given row mentions a given keyword. 
 - I want an interactive force-directed network graph to visualize the relationship various keywords have.
-'''
+"""
 ![potus_keywords_network](images/oneshot_potus_keywords_network.png "potus_keywords_network.png")
 
 ***
