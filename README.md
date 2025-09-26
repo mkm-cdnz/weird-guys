@@ -1,7 +1,13 @@
 # weird-guys
-Textual analyses of U.S. political discourse using NLP, LLM-assisted workflows, and graph visualizations. 
+*Textual analyses of U.S. political discourse using NLP, LLM-assisted workflows, and graph visualizations.*
 
-*Work in Progress - Coming Soon*
+One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in US politics. My primary dataset is:
+
+**[POTUS Presidential Actions](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing)**
+- A representative sample of ‘Presidential Actions’ lifted from [whitehouse.gov](https://www.whitehouse.gov/)
+- 176 (and counting) proclamations, executive orders, & memoranda (ranging from February 2025 - September 2025)
+- Web-scraped text of each ‘Presidential Action’
+- Some metadata
 
 ## About
 - Ongoing textual analysis of U.S. political discourse using NLP, LLM-assisted workflows, and graph visualization techniques.
@@ -19,7 +25,9 @@ Textual analyses of U.S. political discourse using NLP, LLM-assisted workflows, 
 ***
 # Exploratory analyses of POTUS Presidential Actions
 
-![screenshot of keyword exploration in Google Sheets](images/exploratory_keywords.png)
+<a href="https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?usp=sharing" target="_blank" title="Click to explore POTUS Presidential Actions">
+<img src="images/exploratory_keywords.png" alt="POTUS Presidential Actions Dataset" />
+</a>
 
 I assembled these data to test various hypotheses and assumptions I had about US politics. My intentions are to use **textual analyses, NLP, LLMs and data visualization techniques** to 
 
