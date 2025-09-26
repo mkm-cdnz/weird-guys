@@ -18,6 +18,7 @@ Textual analyses of U.S. political discourse using NLP, LLM-assisted workflows, 
 
 ***
 # Exploratory analyses of POTUS Presidential Actions
+![screenshot of keyword exploration in Google Sheets](images/images/exploratory_keywords.png")
 I assembled these data to test various hypotheses and assumptions I had about US politics. My intentions are to use **textual analyses, NLP, LLMs and data visualization techniques** to 
 
 1. interrogate the validity of my hypotheses and assumptions
