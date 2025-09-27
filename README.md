@@ -16,7 +16,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 
 ## Current Focus
 - **Presidential Actions Analysis**: Scraping and analyzing White House proclamations, executive orders, and memoranda (Feb 2025-Present)
-- **Political Discourse Corpus**: Building a dataset of writings by/about various political figures (2007-Present)
+- ~~**Political Discourse Corpus**: Building a dataset of writings by/about various political figures (2007-Present)~~
 
 ## Planned Analyses
 - Keyword trend analysis over time
