@@ -19,9 +19,9 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 - ~~**Political Discourse Corpus**: Building a dataset of writings by/about various political figures (2007-Present)~~
 
 ## Planned Analyses
-- Keyword trend analysis over time
-- Network visualization of term co-occurrence  
-- NLP & LLM-assisted theme discovery
+- Keyword trend analysis over time ✅
+- Network visualization of term co-occurrence ✅  
+- NLP & LLM-assisted theme discovery 🚧
 
 ***
 # Exploratory analyses of POTUS Presidential Actions
