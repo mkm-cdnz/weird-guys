@@ -41,7 +41,7 @@ I assembled these data to test various hypotheses and assumptions I had about US
 > 2. **Strategic Focus on the Judiciary:** There will be a significant emphasis on the **judicial branch** (e.g., frequent mentions of judges, courts, rulings). I hypothesize that this is a strategic channel through which policy preferences on the issues above are articulated or anticipated.
 > 3. **Networked Keyword Relationships:** I expect to see a strong co-occurrence network between **judicial keywords** and keywords related to **reproductive rights, gender identity, and immigration.** This would visually illustrate the hypothesized strategic link between the judiciary and these policy areas.
 
-Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but my first steps were to
+Over time, my methods and visualizations are subject to change, and the dataset is subject to grow, but  steps were to
 1. [Count](https://docs.google.com/spreadsheets/d/1xhZPyUYXrsAF5z6kTfYSFieFw1R6JO1cmkVFakNu-uk/edit?gid=95626583#gid=95626583&range=A1) words
 2. [graph](https://lookerstudio.google.com/s/ngv-FD0AbXM) words
 3. select keywords & themes I believed to be significant
@@ -130,16 +130,14 @@ I am still learning to use and understand Gephi and graph visualizations, but I 
 
   ![screenshot of 'potus_keywords_network.gexf'](images/potus_keywords_network_gexf.png)
   > My first visualization gives me hope that my methodology is plausibly capturing encoded meaning. It appears to show patterns predicted in the hypothesis
-  > - 
+  > - the edge weights demonstrate a relationship with **judicial keywords** and keywords related to **reproductive rights, gender identity,** and **immigration**, with significant focus on **children & infants**.
+
+[![POTUS walks like a duck, and talks like a duck. The pattern displays characteristics consistent with ducks, but requires further validation to rule out methodological artifacts or coincidence.](images/LGBTQ_unsavory_neighbours.png)](https://youtu.be/JJyQC4RQgHI)
+> **LGBTQ-coded** keywords were neighbours with keywords such as "**enemy**", "**extremism**", and "**terror**". 
 
 ***
-# CLIFFHANGER: An Unexpected Finding?
 
-During network analysis, one visualization revealed 2 curious patterns I did not anticipate:
-
-> ## POTUS's rhetoric implies LGBTQ keyword clusters have some unsavoury neighbours
-> [![POTUS walks like a duck, and talks like a duck. The pattern displays characteristics consistent with ducks, but requires further validation to rule out methodological artifacts or coincidence.](images/LGBTQ_unsavory_neighbours.png)](https://youtu.be/JJyQC4RQgHI)
-
+# An Unexpected Finding?
 
 ## **Artificial Intelligence** keyword clusters appear to show high centrality
 - The strength of these connections is visually prominent
@@ -147,7 +145,6 @@ During network analysis, one visualization revealed 2 curious patterns I did not
    - maint**AI**n
    - bu**LLM**astiff
 - AI, LLMs, and Artificial Intelligence are extremely hot stories in the news cycle right now, and my web scraper is pretty dumb; it may be pulling text from the related/trending articles section.
-
 
 
 ## **Open Questions:**
