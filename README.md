@@ -142,26 +142,15 @@ During network analysis, one visualization revealed 2 curious patterns I did not
 
 
 ## **Artificial Intelligence** keyword clusters appear to show high centrality
-- The strength of these connections is visually prominent despite not being part of my original hypotheses
+- The strength of these connections is visually prominent
+- It is possible the high centrality & high frequency is a result of flaws in my method of capturing keywords
+   - maint**AI**n
+   - bu**LLM**astiff
+- AI, LLMs, and Artificial Intelligence are extremely hot stories in the news cycle right now, and my web scraper is pretty dumb; it may be pulling text from the related/trending articles section.
 
 
 
 ## **Open Questions:**
 - Are these patterns statistically significant, or an artifact of my methodology?
 - Does it represent a meaningful relationship in the data, or random clustering?
-- If valid, what might this reveal about unexamined aspects of political discourse?
-
-**Why I'm Not Investigating Yet:**
-- This exploration remains focused on testing my initial hypotheses, and refining my workflows & toolkits.
-- Proper investigation would require new methodological approaches - which I am still refining
-- I want to avoid premature interpretation without rigorous validation
-
-
-<details>
-  <summary>One final note (Click to Expand) 👇</summary>
-
-  - I didn't include every step or code snippet for the ChatGPT-generated. 
-  - That would have been the coding equivalent of watching a cooking show where a guy orders a Pizza on Uber Eats, sends it back 5 times for being wrong, and gets in 3 arguments with the delivery driver who suddenly insists "customers *always* go to the store to make their own pizza.
-  - If that happens on cooking shows, we'd never know, because they too would just leave that ordeal on the cutting room floor and jumpcut straight to the cheese-pull.
-</details>
-
+- Would more robust methodology and larger datasets increase or decrease the strength of these patterns?
