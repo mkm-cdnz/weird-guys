@@ -155,7 +155,7 @@ During network analysis, one visualization revealed 2 curious patterns I did not
 - This exploration remains focused on testing my initial hypotheses, and refining my workflows & toolkits.
 - Proper investigation would require new methodological approaches - which I am still refining
 - I want to avoid premature interpretation without rigorous validation
-- POTUS walks like a duck, and talks like a duck. The pattern displays characteristics consistent with ducks, but requires further validation to rule out methodological artifacts or coincidence.
+
 
 <details>
   <summary>One final note (Click to Expand) 👇</summary>
