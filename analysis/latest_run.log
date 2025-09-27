@@ -1,0 +1,14 @@
+2025-09-27 06:23:33,506 INFO Loading corpus from Corpora/tiny_POTUS_vs_weird_guys - combined_weirdos.csv
+2025-09-27 06:23:33,732 INFO Building document table with stable identifiers
+2025-09-27 06:23:34,159 INFO Fitting TF-IDF vectorizer on 339 documents
+2025-09-27 06:23:36,502 INFO Extracting top 15 TF-IDF keywords per document
+2025-09-27 06:23:37,443 INFO Running YAKE keyphrase extraction
+2025-09-27 06:24:35,849 INFO Clustering keyphrases using sentence embeddings
+2025-09-27 06:24:35,997 INFO Writing 339 rows to artifacts/documents.parquet
+2025-09-27 06:24:36,208 INFO Writing 11639 rows to artifacts/document_keywords.parquet
+2025-09-27 06:24:36,252 INFO Fitting NMF topic model with 10 topics
+2025-09-27 06:24:40,626 INFO Writing 10 rows to artifacts/themes.parquet
+2025-09-27 06:24:40,631 INFO Writing 1011 rows to artifacts/document_themes.parquet
+2025-09-27 06:24:40,643 INFO Scoring sentiment with VADER
+2025-09-27 06:24:57,068 INFO Writing 339 rows to artifacts/document_sentiment.parquet
+2025-09-27 06:24:57,072 INFO Pipeline completed successfully. Artefacts written to artifacts
