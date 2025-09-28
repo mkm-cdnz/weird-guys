@@ -1,1 +1,134 @@
-
+{
+  "exploratoryTestingKeywords": [
+    {
+      "group": 1,
+      "theme": "autism_neurodiversity",
+      "keywords": ["autism", "autistic", "ASD"]
+    },
+    {
+      "group": 2,
+      "theme": "judicial_legal",
+      "keywords": ["court", "judge", "justice", "Supreme Court", "federal court", "ruling", "verdict", "judicial", "magistrate", "tribunal", "litigation", "precedent", "constitutional", "unconstitutional", "legal", "lawsuit", "injunction"]
+    },
+    {
+      "group": 3,
+      "theme": "social_justice_diversity",
+      "keywords": ["woke", "DEI", "intersectionality", "LGBT", "LGBTQ", "LGBTQ+", "diversity", "inclusion", "equity", "social justice", "identity politics", "progressive", "critical race theory", "CRT"]
+    },
+    {
+      "group": 4,
+      "theme": "gender_sexuality",
+      "keywords": ["Gender", "gender", "Sex", "sex"]
+    },
+    {
+      "group": 5,
+      "theme": "sexual_orientation_identity",
+      "keywords": ["gay", "lesbian", "transgender", "intersex", "queer", "non-binary", "gender identity", "sexual orientation", "LGBTQI", "trans"]
+    },
+    {
+      "group": 6,
+      "theme": "biology_science",
+      "keywords": ["biological", "biology"]
+    },
+    {
+      "group": 7,
+      "theme": "children_youth",
+      "keywords": ["Child", "child", "baby", "babies", "infant", "fetus", "children", "minors", "youth", "adolescent", "pediatric"]
+    },
+    {
+      "group": 8,
+      "theme": "reproductive_rights",
+      "keywords": ["abortion", "Abortion", "reproductive", "pregnancy", "contraception", "birth control", "maternal", "prenatal", "family planning"]
+    },
+    {
+      "group": 9,
+      "theme": "extremism_radicalism",
+      "keywords": ["radical", "extremist", "extremism"]
+    },
+    {
+      "group": 10,
+      "theme": "environmental",
+      "keywords": ["environmentalism", "climate", "environmental", "green", "sustainability", "carbon", "emissions"]
+    },
+    {
+      "group": 11,
+      "theme": "political_movements",
+      "keywords": ["antifa", "ANTIFA", "Antifa"]
+    },
+    {
+      "group": 12,
+      "theme": "sedition_betrayal",
+      "keywords": ["treason", "traitor", "insurrection", "sedition", "coup", "rebellion"]
+    },
+    {
+      "group": 13,
+      "theme": "adversaries",
+      "keywords": ["enemy", "enemies"]
+    },
+    {
+      "group": 14,
+      "theme": "immigration_status",
+      "keywords": ["Alien", "alien", "migrant", "immigrant", "asylum", "refugee", "foreign national", "undocumented", "deportation", "visa", "green card"]
+    },
+    {
+      "group": 15,
+      "theme": "invasion_military_framing",
+      "keywords": ["invasion", "invader", "surge", "flood", "wave", "crisis", "overwhelm"]
+    },
+    {
+      "group": 16,
+      "theme": "border_security",
+      "keywords": ["border", "illegal", "wall", "fence", "barrier", "customs", "ICE", "CBP", "Border Patrol", "crossing", "entry point"]
+    },
+    {
+      "group": 17,
+      "theme": "citizenship",
+      "keywords": ["Citizen", "citizen", "citizenship", "naturalization"]
+    },
+    {
+      "group": 18,
+      "theme": "artificial_intelligence",
+      "keywords": ["Artificial Intelligence", "artificial intelligence", "AI", "LLM", "machine learning", "algorithm", "automation", "ChatGPT", "OpenAI", "neural network"]
+    },
+    {
+      "group": 19,
+      "theme": "religion_faith",
+      "keywords": ["Christ", "religion", "faith", "Jesus", "Christian", "God", "church", "religious", "spiritual", "prayer", "Bible", "biblical"]
+    },
+    {
+      "group": 20,
+      "theme": "discrimination",
+      "keywords": ["discrimination", "discriminated", "prejudice", "bias", "harassment"]
+    },
+    {
+      "group": 21,
+      "theme": "drugs_substance",
+      "keywords": ["drug", "drugs", "narcotic", "opioid", "fentanyl", "cocaine", "heroin", "substance abuse", "addiction"]
+    },
+    {
+      "group": 22,
+      "theme": "terrorism_security",
+      "keywords": ["terror", "terrorism", "terrorist", "security", "threat", "violence", "attack"]
+    },
+    {
+      "group": 23,
+      "theme": "government_efficiency",
+      "keywords": ["DOGE", "efficiency", "bureaucracy", "regulation", "deregulation"]
+    },
+    {
+      "group": 24,
+      "theme": "international_relations",
+      "keywords": ["Canada", "Mexico", "Greenland", "Panama", "Cuba", "Denmark", "Venezuela", "Iran", "Israel", "Russia", "Ukraine", "El Salvador", "China", "Taiwan", "Japan", "North Korea", "South Korea", "India", "Saudi Arabia", "Egypt", "Lebanon", "Syria", "Moldova", "Belarus", "Libya", "Eswatini", "Palau"]
+    },
+    {
+      "group": 25,
+      "theme": "male_gender",
+      "keywords": ["men", "man", "boys", "boy", "males", "male", "masculine", "father", "fathers", "dad", "husband", "son", "sons", "guy", "guys"]
+    },
+    {
+      "group": 26,
+      "theme": "female_gender",
+      "keywords": ["women", "woman", "girls", "girl", "females", "female", "feminine", "mother", "mothers", "mom", "wife", "daughter", "daughters", "lady", "ladies"]
+    }
+  ]
+}
