@@ -7,13 +7,13 @@ I am iteratively experimenting with improving my ability to search & categorize 
 
 ## Keywords & themes in a JSON object
 
-**[V1 - keywords/exploratory_keywords.JSON](keywords/exploratory_keywords.JSON)** 
+**[V1 - keywords/exploratory_keywords.JSON](https://github.com/mkm-cdnz/weird-guys/blob/main/keywords/exploratory_keywords.JSON)** 
 - moved keywords out of the corpous dataset, and into a separate file
 - added themes, in addition to keywords; attempting to capture higher-level views of the dataset
 - increased both efficiency & ability to add/remove keywords
 - more scalable than POC keyword exploration.
 
-**[V2 - keywords/exploratory_keywords_v2_plus.json](keywords/exploratory_keywords_v2_plus.json)**
+**[V2 - keywords/exploratory_keywords_v2_plus.json](https://github.com/mkm-cdnz/weird-guys/blob/main/keywords/exploratory_keywords_v2_plus.json)**
 - expanded keywords & themes
 - moved countries from ```international_relations``` theme ▶️ a separate ```geo_entities``` list.
 - gender is now stored as an ```attribute``` not a theme.
