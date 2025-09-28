@@ -154,6 +154,6 @@ I am still learning to work with graph visualizations, but I am seeing the poten
 
 ***
 
-# Drilling down
+# Drilling down and conclusions (🚧coming soon🚧)
 I created a simple interactive chord diagram to explore themes. Each theme has multiple keywords. Click on a chord to explore its relationship.
 [![Click to view the live visualization](images/chord_diagram1.png)](https://rich-chimera-380903.ts.r.appspot.com/)
