@@ -151,3 +151,9 @@ I am still learning to work with graph visualizations, but I am seeing the poten
 - Are these patterns statistically significant, or an artifact of my methodology?
 - Does it represent a meaningful relationship in the data, or random clustering?
 - Would more robust methodology and larger datasets increase or decrease the strength of these patterns?
+
+***
+
+# Drilling down
+I created a simple interactive chord diagram to explore themes. Each theme has multiple keywords. Click on a chord to explore its relationship.
+[![Click to view the live visualization](images/chord_diagram1.png)](https://rich-chimera-380903.ts.r.appspot.com/)
