@@ -1,0 +1,558 @@
+{
+  "version": "2.1",
+  "matching_defaults": {
+    "case_insensitive": true,
+    "normalize": {
+      "lowercase": true,
+      "strip_accents": true,
+      "hyphens_to_space": true,
+      "collapse_whitespace": true,
+      "lemmatize_plural": true
+    },
+    "token_window_default": 16
+  },
+  "notes": "Themes encode include/exclude/co-require logic. Attributes & dimensions enrich analysis without triggering themes.",
+  "frame_lexicons": {
+    "restriction": [
+      "ban",
+      "prohibit",
+      "suspend",
+      "limit",
+      "restrict",
+      "revoke",
+      "rescind",
+      "terminate",
+      "freeze",
+      "block",
+      "enforce",
+      "prosecution",
+      "jail",
+      "deport",
+      "detain",
+      "remove",
+      "illegal",
+      "unlawful",
+      "invasion",
+      "crime wave",
+      "threat",
+      "crackdown"
+    ],
+    "support": [
+      "protect",
+      "ensure",
+      "expand",
+      "access",
+      "safeguard",
+      "support",
+      "include",
+      "affirm",
+      "rights",
+      "equity",
+      "allow",
+      "grant",
+      "relief",
+      "humanitarian",
+      "legalize"
+    ],
+    "negation": [
+      "not",
+      "no",
+      "never",
+      "without",
+      "lack",
+      "exclude",
+      "deny",
+      "ban on"
+    ]
+  },
+  "themes": [
+    {
+      "id": "Department_of_Government_Efficiency_DOGE",
+      "group": "governance",
+      "description": "Department of Government Efficiency (DOGE) agenda",
+      "include_any": [
+        {
+          "pattern": "department of government efficiency"
+        },
+        {
+          "pattern": "DOGE"
+        },
+        {
+          "pattern": "U.S. DOGE Service"
+        },
+        {
+          "pattern": "USDS reorganization"
+        },
+        {
+          "pattern": "USDSTO"
+        },
+        {
+          "pattern": "waste and fraud"
+        },
+        {
+          "pattern": "cost-cutting"
+        },
+        {
+          "pattern": "regulatory rescissions"
+        },
+        {
+          "pattern": "hiring freeze"
+        },
+        {
+          "pattern": "workforce optimization"
+        },
+        {
+          "pattern": "software modernization initiative"
+        },
+        {
+          "pattern": "restructuring federal agencies"
+        },
+        {
+          "pattern": "project 2025"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "federal|agency|OMB|GSA|OPM|EOP|USDS|USDSTO|Treasury|SSA|HHS|IRS|civil service",
+          "window": 24
+        }
+      ],
+      "exclude_any": [
+        {
+          "type": "regex",
+          "pattern": "doge(coin)?\\\\b",
+          "unless_near": "department|government|efficiency|USDS|USDSTO",
+          "window": 12
+        }
+      ]
+    },
+    {
+      "id": "reproductive_rights",
+      "group": "social_policy",
+      "description": "Abortion & reproductive policy",
+      "include_any": [
+        {
+          "pattern": "abortion"
+        },
+        {
+          "pattern": "reproductive rights"
+        },
+        {
+          "pattern": "pro-life"
+        },
+        {
+          "pattern": "prochoice"
+        },
+        {
+          "pattern": "mifepristone"
+        },
+        {
+          "pattern": "abortion pill"
+        },
+        {
+          "pattern": "planned parenthood"
+        },
+        {
+          "type": "regex",
+          "pattern": "roe\\s+v\\.?\\s+wade"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "clinic|provider|ban|restriction|access|pill|medication|gestation|heartbeat|overturn|trigger law",
+          "window": 18
+        }
+      ]
+    },
+    {
+      "id": "judicial_legal",
+      "group": "legal",
+      "description": "Courts, cases, rulings",
+      "include_any": [
+        {
+          "pattern": "supreme court|appeals court|district court|circuit court|state court"
+        },
+        {
+          "pattern": "injunction|ruling|verdict|judgment|order|stay|appeal"
+        },
+        {
+          "pattern": "lawsuit|plaintiff|defendant|attorney general|AG filed"
+        },
+        {
+          "pattern": "docket|brief|oral argument|amicus"
+        }
+      ],
+      "co_require": [
+        {
+          "type": "regex",
+          "pattern": "court|judge|justice|v\\.",
+          "window": 12
+        }
+      ],
+      "exclude_any": [
+        {
+          "type": "regex",
+          "pattern": "department of justice (press|grant|program)"
+        }
+      ]
+    },
+    {
+      "id": "gender_discourse",
+      "group": "society",
+      "description": "Gender identity/DEI policy discourse",
+      "include_any": [
+        {
+          "pattern": "gender identity|gender ideology|gender dysphoria|gender-affirming care"
+        },
+        {
+          "type": "regex",
+          "pattern": "pronoun(s)?"
+        },
+        {
+          "pattern": "bathroom policy|locker room policy"
+        },
+        {
+          "pattern": "transgender|nonbinary|intersex"
+        },
+        {
+          "pattern": "critical race theory|CRT"
+        },
+        {
+          "pattern": "diversity|equity|inclusion|DEI"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "education|school|curriculum|policy|ban|bill|law|coach|team|athletic|locker|prison|housing",
+          "window": 18
+        }
+      ],
+      "exclude_any": [
+        {
+          "type": "regex",
+          "pattern": "CRT (monitor|display|tube)"
+        }
+      ]
+    },
+    {
+      "id": "sexual_orientation",
+      "group": "society",
+      "description": "Orientation & LGBTQ+ entities",
+      "include_any": [
+        {
+          "pattern": "LGBT|LGBTQ|LGBTQIA"
+        },
+        {
+          "type": "regex",
+          "pattern": "gay|lesbian|bisexual|transgender|queer"
+        }
+      ]
+    },
+    {
+      "id": "ai_tech_policy",
+      "group": "technology",
+      "description": "AI/LLMs and policy debates",
+      "include_any": [
+        {
+          "pattern": "artificial intelligence"
+        },
+        {
+          "pattern": "machine learning"
+        },
+        {
+          "pattern": "neural network"
+        },
+        {
+          "pattern": "large language model"
+        },
+        {
+          "pattern": "LLM"
+        },
+        {
+          "pattern": "ChatGPT"
+        },
+        {
+          "pattern": "OpenAI"
+        },
+        {
+          "pattern": "xAI"
+        },
+        {
+          "pattern": "Grok"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "model|training|fine[- ]?tune|inference|safety|alignment|AI bill|AI Act|risk|compute|parameter|token|RLHF|policy|regulation",
+          "window": 22
+        }
+      ],
+      "exclude_any": [
+        {
+          "type": "regex",
+          "pattern": "\\bAI\\b",
+          "unless_near": "artificial intelligence|machine learning|neural|LLM|model|ChatGPT|OpenAI|xAI|Grok",
+          "window": 12
+        }
+      ]
+    },
+    {
+      "id": "immigration_enforcement_illegal_status",
+      "group": "immigration",
+      "description": "Illegal status rhetoric, enforcement actions, E-Verify, deportation",
+      "include_any": [
+        {
+          "pattern": "illegal alien|illegal aliens"
+        },
+        {
+          "pattern": "unlawful presence"
+        },
+        {
+          "pattern": "unauthorized immigrant"
+        },
+        {
+          "pattern": "E-Verify|E Verify"
+        },
+        {
+          "pattern": "deportation|removal proceedings|expedited removal"
+        },
+        {
+          "pattern": "detention|detention center|processing center"
+        },
+        {
+          "pattern": "sanctuary city|sanctuary policies"
+        }
+      ],
+      "co_require": [
+        {
+          "type": "regex",
+          "pattern": "ICE|CBP|border|crossing|encounter(s)?|smuggling|cartel",
+          "window": 18
+        }
+      ]
+    },
+    {
+      "id": "alien_enemies_act",
+      "group": "immigration",
+      "description": "Alien Enemies Act invocations and related proclamations",
+      "include_any": [
+        {
+          "pattern": "Alien Enemies Act"
+        },
+        {
+          "type": "regex",
+          "pattern": "50\\s*U\\.S\\.C\\.?\\s*\\d{3,}"
+        },
+        {
+          "pattern": "Invocation of the Alien Enemies Act"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "proclamation|executive order|presidential order|national security|enemy aliens",
+          "window": 24
+        }
+      ]
+    },
+    {
+      "id": "gangs_transnational_crime",
+      "group": "security",
+      "description": "Antifa, MS-13, Tren de Aragua, gangs/cartels context",
+      "include_any": [
+        {
+          "pattern": "MS-13|MS13|Mara Salvatrucha"
+        },
+        {
+          "pattern": "Tren de Aragua"
+        },
+        {
+          "pattern": "Antifa|anti-fascist"
+        },
+        {
+          "pattern": "gang|gangs|street gang"
+        },
+        {
+          "pattern": "cartel|cartels"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "violence|riot|arrest|indict|charge|designate|traffick|smuggling|RICO|threat",
+          "window": 18
+        }
+      ],
+      "exclude_any": [
+        {
+          "type": "regex",
+          "pattern": "antifa\\s*super\\s*soldier\\s*memes?"
+        }
+      ]
+    },
+    {
+      "id": "race_relations_discourse",
+      "group": "society",
+      "description": "Race relations and racial discourse (generic)",
+      "include_any": [
+        {
+          "pattern": "race relations"
+        },
+        {
+          "pattern": "racism|racist"
+        },
+        {
+          "pattern": "racial discrimination|racial inequality"
+        },
+        {
+          "pattern": "civil rights"
+        },
+        {
+          "pattern": "systemic racism"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "policy|law|protest|speech|act|order|program|investigation",
+          "window": 18
+        }
+      ]
+    },
+    {
+      "id": "white_supremacy_extremism",
+      "group": "security",
+      "description": "White supremacist groups & rhetoric",
+      "include_any": [
+        {
+          "pattern": "Ku Klux Klan|KKK"
+        },
+        {
+          "pattern": "white supremacist|white supremacy|white nationalist|neo-nazi|neo nazi"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "hate crime|designation|extremism|terror|violence|threat|group|organization",
+          "window": 18
+        }
+      ]
+    },
+    {
+      "id": "children_babies_discourse",
+      "group": "society",
+      "description": "Children/babies framing (parental rights, minors, unborn)",
+      "include_any": [
+        {
+          "pattern": "children|child|kid|kids|minor|minors"
+        },
+        {
+          "pattern": "parents' rights|parental rights"
+        },
+        {
+          "pattern": "unborn|preborn|baby|babies"
+        },
+        {
+          "pattern": "grooming|indoctrination|age-appropriate"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "education|curriculum|school|library|book|health|care|policy|ban|bill|law",
+          "window": 18
+        }
+      ]
+    },
+    {
+      "id": "woke_dei_discourse",
+      "group": "society",
+      "description": "DEI/woke/ESG discourse (as political frame)",
+      "include_any": [
+        {
+          "pattern": "woke"
+        },
+        {
+          "pattern": "DEI|diversity, equity, and inclusion"
+        },
+        {
+          "pattern": "ESG"
+        },
+        {
+          "pattern": "anti-woke|de-woke|un-woke"
+        }
+      ],
+      "co_require": [
+        {
+          "pattern": "policy|hiring|training|education|corporate|university|ban|bill|law|funding|program",
+          "window": 18
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "id": "gender_ref",
+      "description": "Gender reference terms (non-triggering)",
+      "include_any": [
+        {
+          "type": "regex",
+          "pattern": "man|men|male|boy|boys|woman|women|female|girl|girls|mother|mothers|father|fathers|pregnant"
+        }
+      ]
+    },
+    {
+      "id": "age_ref",
+      "description": "Age references (non-triggering)",
+      "include_any": [
+        {
+          "type": "regex",
+          "pattern": "child|children|kid|kids|minor|minors|infant|infants|baby|babies|teen|teens|youth"
+        }
+      ]
+    }
+  ],
+  "geo_dimension": {
+    "notes": "Use alongside themes (orthogonal).",
+    "include_any": [
+      {
+        "pattern": "United States|U.S.|US|America"
+      },
+      {
+        "pattern": "Mexico|Canada|Venezuela|El Salvador|Guatemala|Honduras|Colombia|China|Russia|Ukraine|Iran|Israel|Palestine|Gaza|EU|Europe|NATO"
+      },
+      {
+        "pattern": "Texas|California|New York|Florida|Ohio|Arizona|Pennsylvania"
+      }
+    ]
+  },
+  "linkage_tests": [
+    {
+      "focus": "judicial_link_repro",
+      "source_theme": "judicial_legal",
+      "target_theme": "reproductive_rights"
+    },
+    {
+      "focus": "judicial_link_gender",
+      "source_theme": "judicial_legal",
+      "target_theme": "gender_discourse"
+    },
+    {
+      "focus": "judicial_link_immigration",
+      "source_theme": "judicial_legal",
+      "target_theme": "immigration_enforcement_illegal_status"
+    },
+    {
+      "focus": "judicial_link_woke_dei",
+      "source_theme": "judicial_legal",
+      "target_theme": "woke_dei_discourse"
+    }
+  ],
+  "metrics": {
+    "framing_score": {
+      "method": "Within each matched record, count restriction vs support lexicon hits (after negation handling). Score = (restriction - support) / (restriction + support + 1e-6)."
+    },
+    "theme_projection_metrics": [
+      "shared_records",
+      "jaccard",
+      "npmi"
+    ],
+    "time_bucketing": "monthly"
+  }
+}
