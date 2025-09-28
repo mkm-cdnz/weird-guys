@@ -123,7 +123,7 @@ Happy that GPT-5 could structure CSV files as graph data, I asked it to export t
 > - **Nodes (Vertices):** The individual entities within the network (e.g., people, websites, genes).
 > - **Edges (Links):** The connections between the nodes, representing relationships (e.g., friendships, hyperlinks, interactions). Edges can be **directed** (A links to B) or **undirected** (A and B are related).
 
-I am still learning to use and understand Gephi and graph visualizations, but I am already asking unanticipated questions based on stories that emerge from the data. 
+I am still learning to work with graph visualizations, but I am seeing the potential to find stories that emerge from the data. 
 - Keyword size denotes frequency within dataset
 - Green lines connect words that are found in the same ‘Presidential Action’
 - Line thickness denotes frequency that connected words appear together
