@@ -137,7 +137,8 @@ I am still learning to work with graph visualizations, but I am seeing the poten
 
 ***
 
-# An Unexpected Finding?
+<details>
+  <summary> **An Unexpected Finding?** </summary>
 
 ## **Artificial Intelligence** keyword clusters appear to show high centrality
 - The strength of these connections is visually prominent
@@ -145,6 +146,28 @@ I am still learning to work with graph visualizations, but I am seeing the poten
    - maint**AI**n
    - bu**LLM**astiff
 - AI, LLMs, and Artificial Intelligence are extremely hot stories in the news cycle right now, and my web scraper is pretty dumb; it may be pulling text from the related/trending articles section.
+
+**What the data actually shows (Presidential Actions, n=176):**
+- **Coverage:** AI appears in 13 records. Within those, token hits are dominated by “AI” (164), with minor “LLM” (5), and isolated mentions of “algorithm”/“OpenAI.”
+- **Co-themes (document-level):** AI most often co-appears with
+    – terrorism_security (12 shared records) and social_justice_diversity (12) — volume backbone
+    – male_gender (10) and environmental (5) — higher specificity (NPMI) among top links
+    – government_efficiency (4) — modernization/USDS/DOGE-adjacent
+    – judicial_legal (4) — present, but low specificity (NPMI < 0), i.e., more background bridge than tight coupling
+- **Interpretation:** In this sample, AI behaves as a cross-cutting **policy/technology** layer rather than a core cultural driver. Its strongest ties are to **security/risk** and to **governance/modernization**; the corpus’s tightest narrative bundle remains the **gender/biology/children/religion/extremism** cluster, which is largely independent of AI mentions.
+
+
+**Why the early “high centrality” in Gephi may have appeared:**
+- **Connector inflation:** single-token “AI” can co-occur widely, lifting degree even when the specific linkage is weak.
+- **Context breadth:** many records discuss multiple policy lanes; document-level co-occurrence can overstate conceptual coupling.
+- **Scraping noise:** prior concern about sidebars/related links justified caution (tightened matching with word boundaries and title/body checks reduced this noise).
+
+_The AI signal is additional to the main story. It shows up meaningfully—especially in security and governance/modernization contexts—but it does not drive the high-specificity cultural bundle that grounds my three hypotheses._  
+</details>
+
+
+
+
 
 
 ## **Open Questions:**
