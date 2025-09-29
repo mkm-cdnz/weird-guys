@@ -21,7 +21,7 @@ One of my ongoing hyperfixations of 2025 is exploring trends/people/keywords in 
 ## Planned Analyses
 - Keyword trend analysis over time 🚧
 - Network visualization of term co-occurrence ✅  
-- NLP & LLM-assisted theme discovery 🚧
+- NLP & LLM-assisted theme discovery ✅
 
 ***
 # Exploratory analyses of POTUS Presidential Actions
