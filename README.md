@@ -154,6 +154,150 @@ I am still learning to work with graph visualizations, but I am seeing the poten
 
 ***
 
-# Drilling down and conclusions (🚧coming soon🚧)
-I created a simple interactive chord diagram to explore themes. Each theme has multiple keywords. Click on a chord to explore its relationship.
+# Drilling Down, Findings and Conclusions
+I created an interactive chord diagram to visually explore themes. Each theme has multiple keywords. Click on a chord to explore its relationship.
 [![Click to view the live visualization](images/chord_diagram1.png)](https://rich-chimera-380903.ts.r.appspot.com/)
+
+## Methodology
+
+### Metrics Framework
+
+The analysis (explorable in the interactive chart above) employs three complementary metrics to understand the relationship networks:
+
+#### **Records (Shared Records)**
+- **Definition:** Number of documents that mention both items (themes or keywords)
+- **Purpose:** Identifies the backbone of the network (e.g., border↔security, judicial_legal↔social_justice_diversity)
+- **Value:** Surfaces high-traffic connections worth investigating first
+
+#### **Jaccard Overlap**
+- **Formula:** `|A∩B| / |A∪B|`
+- **Purpose:** Penalizes very common items that appear everywhere
+- **Value:** Prevents frequency bias, confirms balanced co-presence beyond simple popularity
+
+#### **NPMI (Normalized Pointwise Mutual Information)**
+- **Range:** −1 to 1
+- **Purpose:** Measures specificity of co-occurrence
+- **Value:** Reveals coherent bundles that move together, even if smaller in volume
+
+### Analytical Approach
+
+**Together, these metrics provide:**
+- **Records:** Structural foundation
+- **Jaccard:** Frequency bias prevention  
+- **NPMI:** Specific narrative coupling identification
+
+### Theme-Keyword Assignment Strategy
+
+**Why group keywords into themes?**
+
+1. **Compression & Clarity:** Reduces token sparsity, creates interpretable nodes
+2. **Multi-scale Analysis:** Broad theme-level overview with keyword-level detail
+3. **Noise Control:** Themes stabilize metrics while preserving keyword-level signals
+4. **Future Fidelity:** Enables sub-typing (e.g., border-security vs energy-security)
+
+
+***
+
+## Key Findings
+
+### H1: Linguistic Framing of Social Groups
+
+**Hypothesis:** Mentions of reproductive rights, gender-nonconforming people, and immigration skew restrictive/oppositional rather than supportive/inclusive.
+
+#### Evidence
+
+**Tight Cultural Bundle (NPMI Leaders):**
+```
+gender/sex ↔ biology/science ↔ children/family ↔ religion/faith ↔ extremism/radicalism
+```
+*Indicates biological essentialism + child-protection + moralized threat rhetoric*
+
+**Immigration as Security/Military:**
+- Border security pairs with invasion/military framing and international relations
+- Border↔security represents a top Records edge
+
+**DEI in Contested Settings:**
+- Strong within-DEI connections (diversity↔inclusion)
+- Frequently co-mentioned with judicial/security themes
+
+#### Illustrative Examples
+
+> **"DEFENDING WOMEN FROM GENDER IDEOLOGY EXTREMISM AND RESTORING BIOLOGICAL TRUTH..."**  
+> *Gender/biological co-presence demonstrating biological essentialism frame*  
+> Source: [White House Presidential Action](https://www.whitehouse.gov/presidential-actions/2025/01/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government/)
+
+> **"PROTECTING THE AMERICAN PEOPLE AGAINST INVASION"**  
+> *Immigration framed as national security/military problem*  
+> Source: [White House Presidential Action](https://www.whitehouse.gov/presidential-actions/2025/01/protecting-the-american-people-against-invasion/)
+
+#### Conclusion
+**✅ SUPPORTED** - Gender passages consistently pair with biological essentialism, child-protection, and religion/extremism cues. Immigration is systematically securitized and militarized.
+
+---
+
+### H2: Strategic Focus on the Judiciary
+
+**Hypothesis:** Judicial language serves as a significant channel for articulating and anticipating policy.
+
+#### Evidence
+
+**Courts as Network Bridge:**
+- Judicial_legal co-occurs strongly with security/border and DEI/culture themes
+- Acts as connector across different policy blocks
+
+**Legal Mechanisms in Security/Foreign Contexts:**
+- Judicial tokens frequently appear with security/border language
+- Sanctions/designations/enforcement patterns recur
+
+#### Illustrative Examples
+
+> **"prioritize Title IX enforcement..."**  
+> *Gender policy implementation via legal mechanisms*  
+> Source: [White House Presidential Action](https://www.whitehouse.gov/presidential-actions/2025/02/keeping-men-out-of-womens-sports/)
+
+> **"Bostock v. Clayton County (2020)"**  
+> *Direct case citation within gender policy text*  
+> Source: [White House Presidential Action](https://www.whitehouse.gov/presidential-actions/2025/01/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government/)
+
+#### Conclusion
+**⚠️ PARTIALLY SUPPORTED** - Courts function as reliable bridges and operational pathways, though security and DEI themes show higher volume concentration.
+
+---
+
+### H3: Networked Keyword Relationships
+
+**Hypothesis:** Judicial keywords strongly co-occur with reproductive, gender, and immigration keywords.
+
+#### Evidence
+
+**Theme-Level Connections:**
+- Judicial_legal consistently links to DEI/culture and security/border (high Records, solid Jaccard)
+
+**Keyword-Level Results:**
+- Mixed findings: judicial tokens pair heavily with security/border words
+- Tightest NPMI bundles remain cultural (gender/biology/children/religion/extremism)
+- Court terms don't always appear in the same window
+
+#### Illustrative Examples
+
+> **Judicial + Immigration/Security Context:**  
+> "...procedural requirements to conform with existing law... Immigration and Nationality Act..."  
+> Source: [White House Presidential Action](https://www.whitehouse.gov/presidential-actions/2025/01/protecting-the-american-people-against-invasion/)
+
+#### Conclusion
+**➡️ DIRECTIONALLY SUPPORTED** - Strong connections at theme scale, mixed results at strict keyword granularity except in security/foreign-anchored passages.
+
+## Special Observations
+
+### Children/Family Framing
+**"Children/family"** frequently serves as a bridge term connecting:
+- Gender/sex themes
+- Religion/faith contexts  
+- Biological terminology
+- Extremism/radicalism rhetoric
+
+This pattern suggests a protective/moral register used to justify restrictive policies.
+
+### Immigration & Geographic References
+- **Southern Border Focus:** Mexico/Central/South America mentions co-locate with border/security and invasion/military framing
+- **Foreign Relations Context:** China/Iran/Russia/Israel tied to international relations/sanctions, with judicial mechanisms as enforcement tools rather than cultural frames
