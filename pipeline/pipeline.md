@@ -9,3 +9,4 @@
     - "**doc_id**": Primary Key (PK)
     - "**presidential_actions**" renamed ➡️ "**type**"
     - "**date**": now uses ISO-8601
+    - removed keywords from dataset ➡️ keywords will be stored and maintained in separate JSON objects
