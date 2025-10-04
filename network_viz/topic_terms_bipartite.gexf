@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node">
+      <attribute id="kind" title="kind" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="T0" label="T0">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T1" label="T1">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T2" label="T2">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T3" label="T3">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T4" label="T4">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T5" label="T5">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T6" label="T6">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T7" label="T7">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T8" label="T8">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T9" label="T9">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T10" label="T10">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T11" label="T11">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T12" label="T12">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T13" label="T13">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T14" label="T14">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T15" label="T15">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T16" label="T16">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T17" label="T17">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T18" label="T18">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T19" label="T19">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T20" label="T20">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T21" label="T21">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T22" label="T22">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T23" label="T23">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="T24" label="T24">
+        <attvalues>
+          <attvalue for="kind" value="topic"/>
+        </attvalues>
+      </node>
+      <node id="term::12" label="acquisition">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::24" label="activist">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::31" label="additional valorem">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::43" label="administrator">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::50" label="advanced">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::51" label="adversary">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::53" label="advisory">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::70" label="ai">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::73" label="aircraft">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::74" label="alien">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::80" label="amendment">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::81" label="amendment duty">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::84" label="americans">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::85" label="amp">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::91" label="anniversary">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::92" label="announce">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::98" label="application">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::120" label="army">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::122" label="article">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::124" label="artificial">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::125" label="artificial intelligence">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::130" label="asset">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::133" label="assistant">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::143" label="august">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::160" label="beautiful">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::168" label="biological">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::173" label="board">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::174" label="border">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::187" label="building">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::189" label="bureau">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::195" label="canada">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::198" label="capital">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::199" label="care">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::212" label="chair">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::215" label="change">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::219" label="chief">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::220" label="chief staff">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::221" label="child">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::228" label="civil">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::234" label="clearance">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::241" label="columbia">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::250" label="commission">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::254" label="committee">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::257" label="community">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::258" label="company">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::271" label="condition">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::277" label="consider">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::285" label="constitution proclaim">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::288" label="construction">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::293" label="consumption">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::298" label="contract">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::302" label="control">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::308" label="cost">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::310" label="council">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::315" label="court">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::316" label="cover">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::321" label="crime">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::322" label="criminal">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::332" label="damage">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::340" label="day">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::355" label="defense">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::360" label="delay">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::371" label="deployment">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::372" label="deputy">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::373" label="deputy chief">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::377" label="design">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::391" label="development">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::392" label="digital">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::400" label="discrimination">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::402" label="disease">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::406" label="district">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::407" label="district columbia">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::414" label="doge">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::416" label="domestic">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::419" label="donald">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::420" label="donald trump">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::422" label="drug">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::423" label="duty">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::424" label="duty address">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::438" label="education">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::439" label="educational">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::445" label="efficiency">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::448" label="election">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::457" label="emergency">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::471" label="energy">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::476" label="engage">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::484" label="entity">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::488" label="environmental">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::525" label="experience">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::527" label="export">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::529" label="extend">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::531" label="extraordinary">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::535" label="facility">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::542" label="faith">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::543" label="faithfully">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::545" label="family">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::550" label="february">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::571" label="force">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::572" label="foreign">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::573" label="foreign adversary">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::585" label="freeze">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::586" label="fuel">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::592" label="fund">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::596" label="gallery">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::600" label="gender">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::614" label="governmental">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::622" label="group">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::626" label="guard">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::627" label="guidance">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::636" label="head">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::637" label="head department">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::643" label="health">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::645" label="healthcare">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::646" label="healthy">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::649" label="hire">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::658" label="honor">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::661" label="htsus">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::668" label="ideology">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::678" label="illegal">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::679" label="illegal alien">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::680" label="illicit">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::681" label="illicit drug">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::684" label="immigration">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::693" label="import">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::695" label="impose">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::697" label="improve">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::715" label="industry">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::722" label="initiative">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::723" label="innovation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::729" label="institute">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::730" label="institution">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::736" label="intelligence">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::743" label="interest">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::744" label="interior">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::755" label="invasion">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::769" label="january">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::784" label="jurisdiction">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::785" label="justice">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::791" label="land">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::799" label="lead">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::812" label="license">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::827" label="local">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::838" label="maintenance">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::868" label="member">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::882" label="model">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::895" label="nation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::896" label="national">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::901" label="national interest">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::902" label="national security">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::926" label="nbspnbspnbspnbsp">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::941" label="nbspthe">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::953" label="nbspwithin">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::959" label="new">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::960" label="new york">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::966" label="northern">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::973" label="nuclear">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::985" label="official">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::986" label="omb">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::991" label="operation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::995" label="order">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1016" label="party">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1021" label="payment">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1023" label="penalty">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1029" label="performance">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1030" label="period">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1033" label="permit">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1051" label="plan">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1054" label="policy">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1055" label="political">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1059" label="position">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1060" label="possession">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1062" label="potential">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1066" label="power">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1078" label="president">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1092" label="procedure">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1096" label="proclaim">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1097" label="proclamation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1102" label="product">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1103" label="production">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1104" label="program">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1107" label="project">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1119" label="propose">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1123" label="protect">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1129" label="provider">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1141" label="race">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1146" label="rate">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1147" label="rate duty">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1167" label="reform">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1175" label="regulatory">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1178" label="relation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1193" label="representative">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1196" label="request">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1200" label="research">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1201" label="reserve">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1204" label="resource">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1218" label="review">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1224" label="right">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1230" label="robert">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1237" label="safety">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1242" label="school">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1243" label="science">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1247" label="sec">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1258" label="security">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1266" label="seek">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1273" label="september">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1278" label="service">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1284" label="sex">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1290" label="signer">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1297" label="situation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1309" label="southern">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1310" label="southern border">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1321" label="staff">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1324" label="state">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1325" label="state local">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1334" label="strategic">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1342" label="student">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1351" label="subordinate">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1360" label="supply">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1361" label="supply chain">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1373" label="tariff">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1375" label="task">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1376" label="task force">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1377" label="tax">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1379" label="taxpayer">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1381" label="team">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1384" label="technology">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1386" label="term">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1395" label="texas">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1398" label="th">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1399" label="th anniversary">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1416" label="trade">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1428" label="transparency">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1431" label="transportation">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1433" label="treasury">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1438" label="trump">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1450" label="undermine">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1456" label="unitednbspstate">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1467" label="urban">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1469" label="use">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1474" label="valorem">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1478" label="vance">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1486" label="vice">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1492" label="violent">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1501" label="water">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1510" label="woman">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1514" label="working">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+      <node id="term::1519" label="york">
+        <attvalues>
+          <attvalue for="kind" value="term"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="T0" target="term::592" weight="1.8358145207182721"/>
+      <edge id="1" source="T0" target="term::80" weight="1.589105853406893"/>
+      <edge id="2" source="T0" target="term::1247" weight="1.1243942404897833"/>
+      <edge id="3" source="T0" target="term::1051" weight="1.0749095478238635"/>
+      <edge id="4" source="T0" target="term::614" weight="0.9742062794486984"/>
+      <edge id="5" source="T0" target="term::484" weight="0.9602336102020557"/>
+      <edge id="6" source="T0" target="term::1379" weight="0.9315942877613897"/>
+      <edge id="7" source="T0" target="term::729" weight="0.8988952848964135"/>
+      <edge id="8" source="T0" target="term::1469" weight="0.8725846585885475"/>
+      <edge id="9" source="T0" target="term::1224" weight="0.8695816337757378"/>
+      <edge id="10" source="T0" target="term::769" weight="0.8474047556981995"/>
+      <edge id="11" source="T0" target="term::995" weight="0.7877478441564515"/>
+      <edge id="12" source="T1" target="term::423" weight="0.7716957988518173"/>
+      <edge id="13" source="T1" target="term::1146" weight="0.5429781023225004"/>
+      <edge id="14" source="T1" target="term::1474" weight="0.40798024442742253"/>
+      <edge id="15" source="T1" target="term::1147" weight="0.372141771466957"/>
+      <edge id="16" source="T1" target="term::1373" weight="0.36350186715030275"/>
+      <edge id="17" source="T1" target="term::1102" weight="0.3489181354692321"/>
+      <edge id="18" source="T1" target="term::1416" weight="0.34264721384870417"/>
+      <edge id="19" source="T1" target="term::661" weight="0.3381450658267287"/>
+      <edge id="20" source="T1" target="term::693" weight="0.30720892294376745"/>
+      <edge id="21" source="T1" target="term::695" weight="0.2987854281609573"/>
+      <edge id="22" source="T1" target="term::31" weight="0.2881725641638103"/>
+      <edge id="23" source="T1" target="term::293" weight="0.28247584761659905"/>
+      <edge id="24" source="T2" target="term::1438" weight="0.5195987760118198"/>
+      <edge id="25" source="T2" target="term::419" weight="0.3758699058848749"/>
+      <edge id="26" source="T2" target="term::420" weight="0.3758699058848749"/>
+      <edge id="27" source="T2" target="term::596" weight="0.3713419597058651"/>
+      <edge id="28" source="T2" target="term::1290" weight="0.3713419597058651"/>
+      <edge id="29" source="T2" target="term::1478" weight="0.37133983107714197"/>
+      <edge id="30" source="T2" target="term::85" weight="0.34605902916285436"/>
+      <edge id="31" source="T2" target="term::1456" weight="0.2718169055724821"/>
+      <edge id="32" source="T2" target="term::1055" weight="0.2489776969858829"/>
+      <edge id="33" source="T2" target="term::1097" weight="0.22756137727955317"/>
+      <edge id="34" source="T2" target="term::143" weight="0.22369253824101562"/>
+      <edge id="35" source="T2" target="term::1273" weight="0.21924327603961796"/>
+      <edge id="36" source="T3" target="term::471" weight="0.7476337775713909"/>
+      <edge id="37" source="T3" target="term::744" weight="0.6818123966534823"/>
+      <edge id="38" source="T3" target="term::1501" weight="0.5232598433495458"/>
+      <edge id="39" source="T3" target="term::1107" weight="0.3395720510618583"/>
+      <edge id="40" source="T3" target="term::896" weight="0.3220747212480221"/>
+      <edge id="41" source="T3" target="term::488" weight="0.28295085641801065"/>
+      <edge id="42" source="T3" target="term::1204" weight="0.2818181254846538"/>
+      <edge id="43" source="T3" target="term::791" weight="0.27878406597536554"/>
+      <edge id="44" source="T3" target="term::310" weight="0.27679005345323104"/>
+      <edge id="45" source="T3" target="term::1103" weight="0.25960264507446457"/>
+      <edge id="46" source="T3" target="term::212" weight="0.24709016607220516"/>
+      <edge id="47" source="T3" target="term::160" weight="0.24257818411897616"/>
+      <edge id="48" source="T4" target="term::407" weight="0.8847912777055044"/>
+      <edge id="49" source="T4" target="term::241" weight="0.875887822868565"/>
+      <edge id="50" source="T4" target="term::406" weight="0.8473421241030545"/>
+      <edge id="51" source="T4" target="term::321" weight="0.45767815093047387"/>
+      <edge id="52" source="T4" target="term::198" weight="0.3443562116425988"/>
+      <edge id="53" source="T4" target="term::1492" weight="0.15962009533830315"/>
+      <edge id="54" source="T4" target="term::1237" weight="0.15654145553461069"/>
+      <edge id="55" source="T4" target="term::626" weight="0.15409204772234986"/>
+      <edge id="56" source="T4" target="term::457" weight="0.14751249324045868"/>
+      <edge id="57" source="T4" target="term::271" weight="0.1423575453310293"/>
+      <edge id="58" source="T4" target="term::1023" weight="0.12782577635031442"/>
+      <edge id="59" source="T4" target="term::895" weight="0.10260314395889597"/>
+      <edge id="60" source="T5" target="term::340" weight="1.370149969021581"/>
+      <edge id="61" source="T5" target="term::545" weight="0.8227678318944499"/>
+      <edge id="62" source="T5" target="term::658" weight="0.7016841452659535"/>
+      <edge id="63" source="T5" target="term::91" weight="0.6671404759134786"/>
+      <edge id="64" source="T5" target="term::84" weight="0.4976601890413332"/>
+      <edge id="65" source="T5" target="term::1399" weight="0.48922294088522517"/>
+      <edge id="66" source="T5" target="term::1398" weight="0.4481175903983183"/>
+      <edge id="67" source="T5" target="term::1438" weight="0.445154209535509"/>
+      <edge id="68" source="T5" target="term::120" weight="0.427922066573311"/>
+      <edge id="69" source="T5" target="term::895" weight="0.4085682119554247"/>
+      <edge id="70" source="T5" target="term::1096" weight="0.38715529297002826"/>
+      <edge id="71" source="T5" target="term::285" weight="0.3798457231555468"/>
+      <edge id="72" source="T6" target="term::1284" weight="1.6719378651385937"/>
+      <edge id="73" source="T6" target="term::438" weight="1.3215659950055316"/>
+      <edge id="74" source="T6" target="term::600" weight="1.0718120040573829"/>
+      <edge id="75" source="T6" target="term::1242" weight="0.9751289144880898"/>
+      <edge id="76" source="T6" target="term::1510" weight="0.8781333937259607"/>
+      <edge id="77" source="T6" target="term::439" weight="0.807015155272773"/>
+      <edge id="78" source="T6" target="term::1141" weight="0.7923319728911191"/>
+      <edge id="79" source="T6" target="term::668" weight="0.7441968184793868"/>
+      <edge id="80" source="T6" target="term::730" weight="0.6471868768327527"/>
+      <edge id="81" source="T6" target="term::1342" weight="0.5492487751687433"/>
+      <edge id="82" source="T6" target="term::400" weight="0.4897402523846815"/>
+      <edge id="83" source="T6" target="term::168" weight="0.47496673908042997"/>
+      <edge id="84" source="T7" target="term::414" weight="1.013928669122124"/>
+      <edge id="85" source="T7" target="term::649" weight="0.8024008623555999"/>
+      <edge id="86" source="T7" target="term::1381" weight="0.7310587542122692"/>
+      <edge id="87" source="T7" target="term::445" weight="0.43976987333479384"/>
+      <edge id="88" source="T7" target="term::1051" weight="0.42947353948015216"/>
+      <edge id="89" source="T7" target="term::684" weight="0.38860242094903097"/>
+      <edge id="90" source="T7" target="term::1278" weight="0.38126340118131585"/>
+      <edge id="91" source="T7" target="term::799" weight="0.3445824732317327"/>
+      <edge id="92" source="T7" target="term::585" weight="0.3427780425078818"/>
+      <edge id="93" source="T7" target="term::43" weight="0.337039396649457"/>
+      <edge id="94" source="T7" target="term::1059" weight="0.33650595551751666"/>
+      <edge id="95" source="T7" target="term::636" weight="0.3275453785732947"/>
+      <edge id="96" source="T8" target="term::53" weight="0.8852706333625692"/>
+      <edge id="97" source="T8" target="term::1078" weight="0.6901292535313176"/>
+      <edge id="98" source="T8" target="term::173" weight="0.65156676784325"/>
+      <edge id="99" source="T8" target="term::736" weight="0.6133809408886585"/>
+      <edge id="100" source="T8" target="term::92" weight="0.4931881247865254"/>
+      <edge id="101" source="T8" target="term::257" weight="0.3952097953996472"/>
+      <edge id="102" source="T8" target="term::542" weight="0.3809948058146961"/>
+      <edge id="103" source="T8" target="term::1230" weight="0.3449454041530297"/>
+      <edge id="104" source="T8" target="term::254" weight="0.30742077541417123"/>
+      <edge id="105" source="T8" target="term::1438" weight="0.29608392974709585"/>
+      <edge id="106" source="T8" target="term::250" weight="0.2596463362196925"/>
+      <edge id="107" source="T8" target="term::310" weight="0.2568025311571481"/>
+      <edge id="108" source="T9" target="term::174" weight="1.2436461830031047"/>
+      <edge id="109" source="T9" target="term::535" weight="1.145744138732266"/>
+      <edge id="110" source="T9" target="term::1033" weight="0.6403377390024381"/>
+      <edge id="111" source="T9" target="term::991" weight="0.36522596638158356"/>
+      <edge id="112" source="T9" target="term::271" weight="0.3400480325607805"/>
+      <edge id="113" source="T9" target="term::926" weight="0.32982044982232456"/>
+      <edge id="114" source="T9" target="term::122" weight="0.30436030448868095"/>
+      <edge id="115" source="T9" target="term::288" weight="0.2945301029282095"/>
+      <edge id="116" source="T9" target="term::838" weight="0.2521655475260056"/>
+      <edge id="117" source="T9" target="term::215" weight="0.23010215152304564"/>
+      <edge id="118" source="T9" target="term::1060" weight="0.21022534687041086"/>
+      <edge id="119" source="T9" target="term::195" weight="0.2040003714330771"/>
+      <edge id="120" source="T10" target="term::74" weight="1.276674974854094"/>
+      <edge id="121" source="T10" target="term::678" weight="0.49790829454168445"/>
+      <edge id="122" source="T10" target="term::684" weight="0.4725500664010317"/>
+      <edge id="123" source="T10" target="term::679" weight="0.40192138254742577"/>
+      <edge id="124" source="T10" target="term::784" weight="0.33059609858954997"/>
+      <edge id="125" source="T10" target="term::174" weight="0.31301655518825927"/>
+      <edge id="126" source="T10" target="term::322" weight="0.25215160711915696"/>
+      <edge id="127" source="T10" target="term::1247" weight="0.2302742252132268"/>
+      <edge id="128" source="T10" target="term::1310" weight="0.21083848450514664"/>
+      <edge id="129" source="T10" target="term::941" weight="0.20266079806934295"/>
+      <edge id="130" source="T10" target="term::755" weight="0.20229554138233544"/>
+      <edge id="131" source="T10" target="term::1309" weight="0.19726671517641903"/>
+      <edge id="132" source="T11" target="term::70" weight="1.1215396974029765"/>
+      <edge id="133" source="T11" target="term::1384" weight="0.30499357666359134"/>
+      <edge id="134" source="T11" target="term::125" weight="0.25237733845506083"/>
+      <edge id="135" source="T11" target="term::882" weight="0.2439355191777661"/>
+      <edge id="136" source="T11" target="term::124" weight="0.24331139451327186"/>
+      <edge id="137" source="T11" target="term::736" weight="0.1927984524368523"/>
+      <edge id="138" source="T11" target="term::527" weight="0.1913251040216636"/>
+      <edge id="139" source="T11" target="term::1243" weight="0.18273612665206374"/>
+      <edge id="140" source="T11" target="term::1200" weight="0.17047832827607656"/>
+      <edge id="141" source="T11" target="term::723" weight="0.13758949582915475"/>
+      <edge id="142" source="T11" target="term::438" weight="0.12496833105689935"/>
+      <edge id="143" source="T11" target="term::941" weight="0.12452764318149272"/>
+      <edge id="144" source="T12" target="term::973" weight="1.5003924319605069"/>
+      <edge id="145" source="T12" target="term::471" weight="0.8350292602864567"/>
+      <edge id="146" source="T12" target="term::1384" weight="0.42919132562307266"/>
+      <edge id="147" source="T12" target="term::50" weight="0.40684260831238733"/>
+      <edge id="148" source="T12" target="term::586" weight="0.354870887462789"/>
+      <edge id="149" source="T12" target="term::355" weight="0.2894229400815024"/>
+      <edge id="150" source="T12" target="term::812" weight="0.21837404418794557"/>
+      <edge id="151" source="T12" target="term::371" weight="0.21795431818944638"/>
+      <edge id="152" source="T12" target="term::391" weight="0.19998771164466417"/>
+      <edge id="153" source="T12" target="term::1066" weight="0.1935278056017468"/>
+      <edge id="154" source="T12" target="term::896" weight="0.17529878150367273"/>
+      <edge id="155" source="T12" target="term::1200" weight="0.1561214981253466"/>
+      <edge id="156" source="T13" target="term::1376" weight="0.9168760068981073"/>
+      <edge id="157" source="T13" target="term::1375" weight="0.8591813453862991"/>
+      <edge id="158" source="T13" target="term::571" weight="0.560607618217312"/>
+      <edge id="159" source="T13" target="term::212" weight="0.29602253414621127"/>
+      <edge id="160" source="T13" target="term::372" weight="0.15508854650887138"/>
+      <edge id="161" source="T13" target="term::827" weight="0.15038214167063577"/>
+      <edge id="162" source="T13" target="term::373" weight="0.14886092180034208"/>
+      <edge id="163" source="T13" target="term::220" weight="0.14539533745499258"/>
+      <edge id="164" source="T13" target="term::1325" weight="0.1384375186950744"/>
+      <edge id="165" source="T13" target="term::1324" weight="0.1383293170187742"/>
+      <edge id="166" source="T13" target="term::189" weight="0.13395190212046537"/>
+      <edge id="167" source="T13" target="term::1321" weight="0.1335400408703024"/>
+      <edge id="168" source="T14" target="term::234" weight="0.5152393401559774"/>
+      <edge id="169" source="T14" target="term::743" weight="0.49515029296753865"/>
+      <edge id="170" source="T14" target="term::298" weight="0.47805693534008203"/>
+      <edge id="171" source="T14" target="term::636" weight="0.46919495371566455"/>
+      <edge id="172" source="T14" target="term::637" weight="0.294542007375694"/>
+      <edge id="173" source="T14" target="term::1258" weight="0.2896226593411263"/>
+      <edge id="174" source="T14" target="term::1218" weight="0.2810061754658852"/>
+      <edge id="175" source="T14" target="term::476" weight="0.2517590840730539"/>
+      <edge id="176" source="T14" target="term::901" weight="0.24545604860893264"/>
+      <edge id="177" source="T14" target="term::1450" weight="0.2371617933696244"/>
+      <edge id="178" source="T14" target="term::400" weight="0.2288141673205515"/>
+      <edge id="179" source="T14" target="term::448" weight="0.22806924526297706"/>
+      <edge id="180" source="T15" target="term::1175" weight="0.8004691376252533"/>
+      <edge id="181" source="T15" target="term::986" weight="0.424057351732912"/>
+      <edge id="182" source="T15" target="term::1218" weight="0.3343856356344782"/>
+      <edge id="183" source="T15" target="term::1119" weight="0.2832519281788852"/>
+      <edge id="184" source="T15" target="term::941" weight="0.2739329483153356"/>
+      <edge id="185" source="T15" target="term::308" weight="0.24636921950081095"/>
+      <edge id="186" source="T15" target="term::277" weight="0.18744235398142256"/>
+      <edge id="187" source="T15" target="term::12" weight="0.18657495664489673"/>
+      <edge id="188" source="T15" target="term::1247" weight="0.18348015989908634"/>
+      <edge id="189" source="T15" target="term::627" weight="0.18205081805803974"/>
+      <edge id="190" source="T15" target="term::1431" weight="0.17427857398532282"/>
+      <edge id="191" source="T15" target="term::73" weight="0.15613954127436047"/>
+      <edge id="192" source="T16" target="term::98" weight="0.6744633998452104"/>
+      <edge id="193" source="T16" target="term::573" weight="0.667094031596948"/>
+      <edge id="194" source="T16" target="term::51" weight="0.623556671070843"/>
+      <edge id="195" source="T16" target="term::1030" weight="0.5113852388632671"/>
+      <edge id="196" source="T16" target="term::572" weight="0.49691108336145584"/>
+      <edge id="197" source="T16" target="term::302" weight="0.4494897303822468"/>
+      <edge id="198" source="T16" target="term::902" weight="0.26891916139522865"/>
+      <edge id="199" source="T16" target="term::896" weight="0.2638631548293014"/>
+      <edge id="200" source="T16" target="term::1123" weight="0.24302095644071017"/>
+      <edge id="201" source="T16" target="term::1258" weight="0.24289707769696725"/>
+      <edge id="202" source="T16" target="term::360" weight="0.222181957399728"/>
+      <edge id="203" source="T16" target="term::529" weight="0.21384866692153992"/>
+      <edge id="204" source="T17" target="term::693" weight="0.4875480260240178"/>
+      <edge id="205" source="T17" target="term::1102" weight="0.46735804950233706"/>
+      <edge id="206" source="T17" target="term::416" weight="0.3779705687598504"/>
+      <edge id="207" source="T17" target="term::902" weight="0.31730250008544214"/>
+      <edge id="208" source="T17" target="term::1258" weight="0.2762671640776591"/>
+      <edge id="209" source="T17" target="term::1103" weight="0.26482253289127106"/>
+      <edge id="210" source="T17" target="term::896" weight="0.2578371105028282"/>
+      <edge id="211" source="T17" target="term::1360" weight="0.23991486003491974"/>
+      <edge id="212" source="T17" target="term::572" weight="0.23667419843328305"/>
+      <edge id="213" source="T17" target="term::1416" weight="0.22558255070068703"/>
+      <edge id="214" source="T17" target="term::715" weight="0.21637129847275566"/>
+      <edge id="215" source="T17" target="term::1361" weight="0.2055943049624726"/>
+      <edge id="216" source="T18" target="term::174" weight="0.46447562347716115"/>
+      <edge id="217" source="T18" target="term::422" weight="0.40148020351647895"/>
+      <edge id="218" source="T18" target="term::681" weight="0.3593947200326588"/>
+      <edge id="219" source="T18" target="term::424" weight="0.35651541460817643"/>
+      <edge id="220" source="T18" target="term::1310" weight="0.3436422218794411"/>
+      <edge id="221" source="T18" target="term::680" weight="0.3407486164566387"/>
+      <edge id="222" source="T18" target="term::1309" weight="0.33059129414717503"/>
+      <edge id="223" source="T18" target="term::550" weight="0.2899906975071687"/>
+      <edge id="224" source="T18" target="term::423" weight="0.28605704088616973"/>
+      <edge id="225" source="T18" target="term::1297" weight="0.2819503794432053"/>
+      <edge id="226" source="T18" target="term::966" weight="0.2740445505119693"/>
+      <edge id="227" source="T18" target="term::81" weight="0.23740851595908768"/>
+      <edge id="228" source="T19" target="term::332" weight="0.4951336649013177"/>
+      <edge id="229" source="T19" target="term::315" weight="0.42764437563475227"/>
+      <edge id="230" source="T19" target="term::308" weight="0.397498757874262"/>
+      <edge id="231" source="T19" target="term::316" weight="0.3371429642299004"/>
+      <edge id="232" source="T19" target="term::1196" weight="0.2989722973899004"/>
+      <edge id="233" source="T19" target="term::228" weight="0.29657080789139745"/>
+      <edge id="234" source="T19" target="term::1092" weight="0.29200894423282275"/>
+      <edge id="235" source="T19" target="term::1062" weight="0.23100215324754153"/>
+      <edge id="236" source="T19" target="term::1016" weight="0.21850309926573047"/>
+      <edge id="237" source="T19" target="term::24" weight="0.1846442769922105"/>
+      <edge id="238" source="T19" target="term::785" weight="0.18215595531154816"/>
+      <edge id="239" source="T19" target="term::1266" weight="0.1746343770122921"/>
+      <edge id="240" source="T20" target="term::643" weight="0.5647076053179413"/>
+      <edge id="241" source="T20" target="term::645" weight="0.4018972445833151"/>
+      <edge id="242" source="T20" target="term::422" weight="0.38285713579771113"/>
+      <edge id="243" source="T20" target="term::221" weight="0.3128336344947108"/>
+      <edge id="244" source="T20" target="term::402" weight="0.2582699059216454"/>
+      <edge id="245" source="T20" target="term::1428" weight="0.24320595650215446"/>
+      <edge id="246" source="T20" target="term::646" weight="0.23422265002287648"/>
+      <edge id="247" source="T20" target="term::1104" weight="0.2290250164925738"/>
+      <edge id="248" source="T20" target="term::1200" weight="0.20092035902319644"/>
+      <edge id="249" source="T20" target="term::1021" weight="0.18381341854718164"/>
+      <edge id="250" source="T20" target="term::1129" weight="0.17096440249778655"/>
+      <edge id="251" source="T20" target="term::199" weight="0.1615777441747325"/>
+      <edge id="252" source="T21" target="term::572" weight="0.6383637457183645"/>
+      <edge id="253" source="T21" target="term::1278" weight="0.40981774254884273"/>
+      <edge id="254" source="T21" target="term::1078" weight="0.36134377681189445"/>
+      <edge id="255" source="T21" target="term::985" weight="0.2305776928279275"/>
+      <edge id="256" source="T21" target="term::868" weight="0.22573651863963223"/>
+      <edge id="257" source="T21" target="term::1351" weight="0.21516199892042356"/>
+      <edge id="258" source="T21" target="term::1167" weight="0.2086927029729844"/>
+      <edge id="259" source="T21" target="term::1029" weight="0.1913228407728591"/>
+      <edge id="260" source="T21" target="term::1178" weight="0.18447427873467978"/>
+      <edge id="261" source="T21" target="term::1092" weight="0.16589406737254528"/>
+      <edge id="262" source="T21" target="term::543" weight="0.16325950017266005"/>
+      <edge id="263" source="T21" target="term::1386" weight="0.16179704551917237"/>
+      <edge id="264" source="T22" target="term::1519" weight="0.45720429682330394"/>
+      <edge id="265" source="T22" target="term::960" weight="0.45720429682330394"/>
+      <edge id="266" source="T22" target="term::1193" weight="0.31876273629614643"/>
+      <edge id="267" source="T22" target="term::1486" weight="0.3115877645367589"/>
+      <edge id="268" source="T22" target="term::531" weight="0.3087107864906722"/>
+      <edge id="269" source="T22" target="term::43" weight="0.2702894306949591"/>
+      <edge id="270" source="T22" target="term::959" weight="0.2636544607593582"/>
+      <edge id="271" source="T22" target="term::1395" weight="0.2492829095771667"/>
+      <edge id="272" source="T22" target="term::372" weight="0.2047085650305762"/>
+      <edge id="273" source="T22" target="term::133" weight="0.1887710987811585"/>
+      <edge id="274" source="T22" target="term::92" weight="0.18688396359838635"/>
+      <edge id="275" source="T22" target="term::1467" weight="0.17307038190514373"/>
+      <edge id="276" source="T23" target="term::392" weight="0.7249485286239349"/>
+      <edge id="277" source="T23" target="term::130" weight="0.5585669537448787"/>
+      <edge id="278" source="T23" target="term::1433" weight="0.2325784771212099"/>
+      <edge id="279" source="T23" target="term::1514" weight="0.20206461772063264"/>
+      <edge id="280" source="T23" target="term::622" weight="0.1834672773320199"/>
+      <edge id="281" source="T23" target="term::941" weight="0.1782457586888006"/>
+      <edge id="282" source="T23" target="term::1334" weight="0.1621162240840628"/>
+      <edge id="283" source="T23" target="term::1201" weight="0.13923905096589761"/>
+      <edge id="284" source="T23" target="term::1384" weight="0.1261986449949452"/>
+      <edge id="285" source="T23" target="term::258" weight="0.10191723529772115"/>
+      <edge id="286" source="T23" target="term::953" weight="0.09194775610545028"/>
+      <edge id="287" source="T23" target="term::1377" weight="0.0918150372896569"/>
+      <edge id="288" source="T24" target="term::377" weight="0.8815829822526547"/>
+      <edge id="289" source="T24" target="term::187" weight="0.3801872892521627"/>
+      <edge id="290" source="T24" target="term::525" weight="0.1603797001181068"/>
+      <edge id="291" source="T24" target="term::219" weight="0.1511949618421234"/>
+      <edge id="292" source="T24" target="term::697" weight="0.11290551913395333"/>
+      <edge id="293" source="T24" target="term::1469" weight="0.11233729463346429"/>
+      <edge id="294" source="T24" target="term::43" weight="0.10873628666156877"/>
+      <edge id="295" source="T24" target="term::160" weight="0.08883251910901137"/>
+      <edge id="296" source="T24" target="term::308" weight="0.08632049795637951"/>
+      <edge id="297" source="T24" target="term::959" weight="0.0824196851062914"/>
+      <edge id="298" source="T24" target="term::722" weight="0.07910301154441186"/>
+      <edge id="299" source="T24" target="term::1054" weight="0.07275310085727554"/>
+    </edges>
+  </graph>
+</gexf>
