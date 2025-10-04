@@ -1,1 +1,1 @@
-
+- [topic_terms_bipartite.gexf:](weird-guys/network_viz/topic_terms_bipartite.gexf) cleansed, stop words (mostly) removed, lemmatized, and utilized BERTopic
