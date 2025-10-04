@@ -1,1 +1,1 @@
-- [topic_terms_bipartite.gexf:](/topic_terms_bipartite.gexf) cleansed, stop words (mostly) removed, lemmatized, and utilized BERTopic
+- [topic_terms_bipartite.gexf:](/network_viz/topic_terms_bipartite.gexf) cleansed, stop words (mostly) removed, lemmatized, and utilized BERTopic
