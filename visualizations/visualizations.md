@@ -8,3 +8,6 @@
     - list of keywords
     - Snippet of keywords in context
   [TRY IT OUT!](https://rich-chimera-380903.ts.r.appspot.com/)
+
+## Static Gephy SVG
+- Very large files are hard to view online, thus making [inline_svg_panzoom_touch_noselect.html](/inline_svg_panzoom_touch_noselect.html) a portable SVG makes sense
